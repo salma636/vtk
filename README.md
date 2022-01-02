@@ -21,7 +21,14 @@ we display CT for Chest and Head applying widget on both of them but ray casting
 * [ray casting on chest  ](#widget on Head and Chest)
 
 ## rendring window setup 
+first we creat instance of vtkFullScreenRenderWindow class setting background to whatever color you want 
 
+```
+
+    const fullScreenRenderer = vtkFullScreenRenderWindow.newInstance({
+        background: [0, 0, 0],
+    });
+```
 
 
 
