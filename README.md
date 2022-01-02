@@ -58,7 +58,7 @@ we change color of chest and its details
     const renderWindow = fullScreenRenderer.getRenderWindow();
     const apiRenderWindow = fullScreenRenderer.getApiSpecificRenderWindow();
 ```
-![Image](./image/ray casting.PNG)
+![Image](./image/ray%20casting.jpg)
 
 
 
