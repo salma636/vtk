@@ -1,6 +1,6 @@
 # Final Project: Volume Rendering (VTK)
 ###### simple volume rendring website with Node.js and React
-   
+   +
    
 Name | Sec | BN |   
 --- | --- | --- | 
@@ -29,6 +29,24 @@ first we creat instance of vtkFullScreenRenderWindow class setting background to
         background: [0, 0, 0],
     });
 ```
+then we get its render and render window objects 
+```
+
+  const renderer = fullScreenRenderer.getRenderer();
+    const renderWindow = fullScreenRenderer.getRenderWindow();
+    const apiRenderWindow = fullScreenRenderer.getApiSpecificRenderWindow();
+```
+## Switching between head and chest
+there are two buttons to choose go to head or chest 
+when we display head there are button to go to chest and the same for chest 
+
+
+
+
+
+
+
+
 
 
 
