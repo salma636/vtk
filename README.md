@@ -84,7 +84,7 @@ ctfun.addRGBPoint(100, 1, 1, 1);
         renderWindow.render();
         ````
    ![Image](./image/ray%20casting.jpg)
-      ![Image](./image/ray%20casting.jpg)
+      ![Image](./image/widget%20head%202.PNG)
 
  
         
