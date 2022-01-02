@@ -88,6 +88,7 @@ ctfun.addRGBPoint(100, 1, 1, 1);
 
 # Issues
 -It was little difficult to work with react for the first time
+
 -Merging examples wasn't easy as we imagine and for running examples it take some time cause of old version of examples and the new change happened in vtk.js since this   examples published
 
  
