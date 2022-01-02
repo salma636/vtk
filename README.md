@@ -1,7 +1,7 @@
 # Final Project: Volume Rendering (VTK)
 ###### simple volume rendring website with Node.js and React
-   +
    
+  
 Name | Sec | BN |   
 --- | --- | --- | 
 salma Hussien  | 1 | 38
@@ -53,12 +53,42 @@ it apply iso value on head go into/out head and show its details
 we change color of chest and its details
 
 ```
-
-  const renderer = fullScreenRenderer.getRenderer();
-    const renderWindow = fullScreenRenderer.getRenderWindow();
-    const apiRenderWindow = fullScreenRenderer.getApiSpecificRenderWindow();
+ctfun.addRGBPoint(100, 1, 1, 1);
+    ctfun.addRGBPoint(0, 0, 0, 0);
+    ctfun.addRGBPoint(150, 1, 0, 0);
+    ctfun.addRGBPoint(255, 0, 0, 1);
 ```
+
 ![Image](./image/ray%20casting.jpg)
+
+## widget cropping on Head and Chest 
+ ```
+   const image = reader.getOutputData();
+
+        // update crop widget
+        widget.copyImageDataDescription(image);
+        const cropState = widget.getWidgetState().getCroppingPlanes();
+        cropState.onModified(() => {
+        const planes = getCroppingPlanes(image, cropState.getPlanes());
+        mapper.removeAllClippingPlanes();
+        planes.forEach((plane) => {
+            mapper.addClippingPlane(plane);
+        });
+        mapper.modified();
+        });
+
+        // add volume to renderer
+        renderer.addVolume(actor);
+        renderer.resetCamera();
+        renderer.resetCameraClippingRange();
+        renderWindow.render();
+        ````
+   ![Image](./image/ray%20casting.jpg)
+      ![Image](./image/ray%20casting.jpg)
+
+ 
+        
+
 
 
 
