@@ -18,7 +18,7 @@ we display CT for Chest and Head applying widget on both of them but ray casting
 * [Switching between head and chest](#Switching between head and chest)
 * [marching cubes on head ](#marching cubes iin head )
 * [ray casting on chest  ](#ray casting on chest  )
-* [ray casting on chest  ](#widget on Head and Chest)
+* [widget cropping on Head and Chest ](#widget cropping on Head and Chest)
 
 ## rendring window setup 
 first we creat instance of vtkFullScreenRenderWindow class setting background to whatever color you want 
@@ -45,8 +45,17 @@ when we display head there are button to go to chest and the same for chest
 
 ## marching cubes on head
 it apply iso value on head go into/out head and show its details 
+
 ![Image](./image/iso%202.PNG)
 ![Image](./image/iso.PNG)
+
+## widget cropping on Head and Chest
+
+
+![Image](./image/widget head.PNG)
+![Image](./image/widget hwad%202%.PNG)
+![Image](./image/ray casting.jpg)
+
 
 
 
