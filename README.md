@@ -49,12 +49,18 @@ it apply iso value on head go into/out head and show its details
 ![Image](./image/iso%202.PNG)
 ![Image](./image/iso.PNG)
 
-## widget cropping on Head and Chest
+## ray casting on chest
+we change color of chest and its details
+
+```
+
+  const renderer = fullScreenRenderer.getRenderer();
+    const renderWindow = fullScreenRenderer.getRenderWindow();
+    const apiRenderWindow = fullScreenRenderer.getApiSpecificRenderWindow();
+```
+![Image](./image/ray casting.PNG)
 
 
-![Image](./image/widget head.PNG)
-![Image](./image/widget hwad%202%.PNG)
-![Image](./image/ray casting.jpg)
 
 
 
