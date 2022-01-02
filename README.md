@@ -39,7 +39,7 @@ then we get its render and render window objects
 ## Switching between head and chest
 there are two buttons to choose go to head or chest 
 when we display head there are button to go to chest and the same for chest 
-! [Switching between head and chest]()
+! [Switching between head and chest](https://github.com/salma636/vtk/blob/main/main.PNG,https://github.com/salma636/vtk/blob/main/main.PNG)
 
 
 
