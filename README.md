@@ -45,7 +45,7 @@ when we display head there are button to go to chest and the same for chest
 
 ## marching cubes on head
 it apply iso value on head go into/out head and show its details 
-![Image](./image/iso2.PNG)
+![Image](./image/iso%202.PNG)
 ![Image](./image/iso.PNG)
 
 
