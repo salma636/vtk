@@ -1,4 +1,7 @@
 # Final Project: Volume Rendering (VTK)
+###### simple volume rendring website with Node.js and React
+   
+   
 Name | Sec | BN |   
 --- | --- | --- | 
 salma Hussien  | 1 | 38
@@ -6,7 +9,6 @@ Sandra essa | 1 | 35
 Habiba mohamed | 1 | 25
 
 
-###### simple volume rendring website with Node.js and React
 # Main Idea 
 we display CT for Chest and Head applying widget on both of them but ray casting only on Chest and Marching cubes on Head.
 
